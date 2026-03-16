@@ -1,0 +1,35 @@
+{
+  "employee": "Alex",
+  "role": "Documentation Lead",
+  "department": "Engineering",
+  "reports_to": "Maya",
+  
+  "strategic_goal": "100% documentation coverage for v1.0",
+  
+  "weekly_focus": {
+    "week": "2026-W11",
+    "theme": "ESTCP tech specs + API docs",
+    "deliverables": ["Spectroscopy spec doc", "API reference update", "Grant appendix"]
+  },
+  
+  "daily_schedule": {
+    "09:00": "Review Casey requirements for grant docs",
+    "09:30": "Interview Drew on API changes",
+    "10:00": "Draft technical specs (3hr focus)",
+    "13:00": "Format docs + fix broken links",
+    "14:00": "Auto-PR for review",
+    "15:00": "Update Erica on doc status"
+  },
+  
+  "hourly_tasks": {
+    "every_15_min": "Auto-format new files in docs/",
+    "on_push": "Check for broken links"
+  },
+  
+  "dependencies": {
+    "needs_from_drew": "Technical details on API changes",
+    "needs_from_casey": "Grant documentation requirements",
+    "provides_to_casey": "Grant-ready technical docs",
+    "provides_to_iris": "Patent specification drafts"
+  }
+}

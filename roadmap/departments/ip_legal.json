@@ -1,0 +1,16 @@
+{
+  "department": "IP & Legal",
+  "head": "Iris",
+  "strategic_objective": "File 5 patents + secure trademarks",
+  "quarterly_goals": {
+    "Q1_2026": {
+      "objective": "Complete prior art search + file provisional patents",
+      "key_results": ["Patent landscape report", "3 provisional filings", "Trademark clearance"],
+      "owner": "Iris"
+    }
+  },
+  "dependencies": {
+    "needs_from": ["Engineering: System specs"],
+    "provides_to": ["All: IP protection"]
+  }
+}

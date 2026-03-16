@@ -1,0 +1,16 @@
+{
+  "department": "Operations",
+  "head": "Raj",
+  "strategic_objective": "Deploy 10,000 sensors in San Luis Valley",
+  "quarterly_goals": {
+    "Q1_2026": {
+      "objective": "CSU Pilot completion + ESTCP grant submission",
+      "key_results": ["Pilot report delivered", "ESTCP narrative finalized", "Budget validated"],
+      "owner": "Casey"
+    }
+  },
+  "dependencies": {
+    "needs_from": ["Engineering: Sensor API", "Finance: Budget approval"],
+    "provides_to": ["Engineering: Deployment schedule", "Grants: Field data"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "department": "Engineering",
+  "head": "Maya",
+  "strategic_objective": "Production-ready FarmSense platform v1.0",
+  "quarterly_goals": {
+    "Q1_2026": {
+      "objective": "Complete Oracle integration + API stability",
+      "key_results": ["Oracle 99.9% uptime", "API <100ms p95", "Zero P0 bugs"],
+      "owner": "Drew"
+    }
+  },
+  "weekly_sprints": {
+    "current": "2026-W11",
+    "focus": "API stability + Oracle hardening"
+  },
+  "dependencies": {
+    "needs_from": ["Operations: Sensor schedule", "Finance: Hardware approval"],
+    "provides_to": ["Operations: Sensor API", "Grants: Tech specs"]
+  }
+}

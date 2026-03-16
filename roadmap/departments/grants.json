@@ -1,0 +1,16 @@
+{
+  "department": "Grants & Finance",
+  "head": "Sam",
+  "strategic_objective": "Secure $2M grants + $5M seed by Q2 2026",
+  "quarterly_goals": {
+    "Q1_2026": {
+      "objective": "ESTCP submission + investor pipeline",
+      "key_results": ["ESTCP submitted by Mar 26", "20 investor conversations", "Data room ready"],
+      "owner": "Casey + Taylor"
+    }
+  },
+  "dependencies": {
+    "needs_from": ["Engineering: Tech specs", "Operations: Field data"],
+    "provides_to": ["All: Budget allocation"]
+  }
+}

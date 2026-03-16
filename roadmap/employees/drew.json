@@ -1,0 +1,36 @@
+{
+  "employee": "Drew",
+  "role": "Senior Engineer",
+  "department": "Engineering",
+  "reports_to": "Maya",
+  
+  "strategic_goal": "Production-ready API with 99.9% uptime",
+  
+  "weekly_focus": {
+    "week": "2026-W11",
+    "theme": "Oracle stability",
+    "deliverables": ["Circuit breaker implementation", "Retry logic", "Health check endpoint"]
+  },
+  
+  "daily_schedule": {
+    "08:00": "Review overnight alerts from Pulse",
+    "08:30": "Standup: report blockers to Maya",
+    "09:00": "Code: Oracle timeout fix (3hr block)",
+    "12:00": "Lunch",
+    "13:00": "PR review (2hr)",
+    "15:00": "Update Casey on API changes",
+    "16:00": "Deploy to staging + test"
+  },
+  
+  "hourly_automation": {
+    "continuous": "Sentinel monitors for security issues",
+    "on_alert": "Immediately check Pulse status"
+  },
+  
+  "dependencies": {
+    "needs_from_pulse": "System health status",
+    "needs_from_sentinel": "Security scan results",
+    "provides_to_casey": "API documentation updates",
+    "provides_to_maya": "Status reports + blockers"
+  }
+}

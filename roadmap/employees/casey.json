@@ -1,0 +1,42 @@
+{
+  "employee": "Casey",
+  "role": "Grant Coordinator",
+  "department": "Grants & Finance",
+  "reports_to": "Sam",
+  
+  "strategic_goal": "Secure $2M in grant funding by Q2 2026",
+  
+  "quarterly_objectives": {
+    "Q1_2026": "Submit ESTCP FY 2027 grant by March 26"
+  },
+  
+  "weekly_focus": {
+    "week": "2026-W11",
+    "theme": "ESTCP final push",
+    "deliverables": ["Narrative section 3", "Budget spreadsheet", "Letters of support"]
+  },
+  
+  "daily_schedule": {
+    "09:00": "Review overnight agent updates",
+    "09:30": "Check Alex (doc) for spec updates",
+    "10:00": "Draft grant narrative (2hr focus block)",
+    "12:00": "Lunch + async catch-up",
+    "13:00": "Review Drew (eng) API specs for technical section",
+    "14:00": "Update budget spreadsheet",
+    "15:00": "Submit proposal to Erica for review",
+    "16:00": "Follow up on letters of support"
+  },
+  
+  "hourly_check_ins": {
+    "on_the_hour": "Check inbox for approvals needed",
+    "trigger_conditions": ["Alex updates specs", "Drew changes API", "Sam requests review"]
+  },
+  
+  "dependencies": {
+    "needs_from_alex": "Technical specifications document",
+    "needs_from_drew": "API endpoint documentation",
+    "needs_from_maya": "Architecture diagrams",
+    "provides_to_iris": "Patent-relevant technical details",
+    "provides_to_eric": "Weekly status for executive briefing"
+  }
+}
