@@ -1,0 +1,15 @@
+{
+  "employee": "casey",
+  "timestamp": "2026-03-16T18:00:00Z",
+  "status": "active-sprint",
+  "active_grants": [
+    {"name": "ESTCP FY 2027", "deadline": "2026-03-26", "days_left": 10, "status": "documentation-phase", "confidence": 0.7}
+  ],
+  "pipeline": [
+    {"name": "USDA SBIR Phase I", "stage": "evaluation", "potential": "high"}
+  ],
+  "blockers": ["TASK-005"],
+  "escalations_sent": 1,
+  "mood": "focused",
+  "version": "1.0"
+}

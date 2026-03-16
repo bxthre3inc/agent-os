@@ -1,0 +1,13 @@
+{
+  "employee": "drew",
+  "timestamp": "2026-03-16T18:00:00Z",
+  "shift": "work-hours",
+  "status": "idle",
+  "active_task": null,
+  "prs_reviewed_today": 0,
+  "issues_closed_today": 0,
+  "prs_open": 0,
+  "issues_open": 0,
+  "mood": "ready",
+  "version": "1.0"
+}

@@ -1,0 +1,11 @@
+{
+  "employee": "erica",
+  "timestamp": "2026-03-16T18:00:00Z",
+  "status": "idle",
+  "briefings_today": 0,
+  "escalations_tracked": 3,
+  "active_action_items": 2,
+  "next_briefing": "2026-03-17T14:00:00Z",
+  "mood": "ready",
+  "version": "1.0"
+}

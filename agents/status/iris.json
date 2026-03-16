@@ -1,0 +1,12 @@
+{
+  "employee": "iris",
+  "timestamp": "2026-03-16T18:00:00Z",
+  "status": "scanning",
+  "patents_monitored": 150,
+  "new_findings_today": 0,
+  "active_conflicts": 5,
+  "p1_escalations": ["TASK-003"],
+  "upcoming_filings": [],
+  "mood": "vigilant",
+  "version": "1.0"
+}
